@@ -1,5 +1,8 @@
+/* Exercício 07 – OperacoesMatrizes
+ * Aluno: Herick de Lima Carneiro – Matricula: 20220005754
+ * Aluno: Weslley Rhaonny de Lima Freitas – Matricula: 20220155170
+ */
 import java.util.Scanner;
-
 public class OperacoesMatrizes {
     public static void main(String[] args) {
         int matriz[][] = new int[4][4];
@@ -68,17 +71,15 @@ public class OperacoesMatrizes {
         System.out.printf("A média aritmétrica dos elementos da diagonal princical é: %.2f\n", total/contador);
     }
     public static void menorElemento (int a[][]) {
-        int i,j,menor=6000,indiceColuna=0, indiceLinha=0;
+        int i,j,menor=6000;
         for (i=0;i<4;i++){
             for(j=0;j<4;j++){
                 if(a[i][j]<menor){
                     menor=a[i][j];
-                    indiceLinha = i;
-                    indiceColuna = j;
                 }
             }
         }
-        System.out.printf("o menor elemento da matriz está na linha %d e coluna %d, e tem valor de: %d\n", indiceLinha, indiceColuna, menor);
+        System.out.printf("o menor elemento tem valor de: %d\n", menor);
     }
     public static void somaMatriz(int a[][]) {
         int i,j,total=0;

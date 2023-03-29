@@ -1,5 +1,8 @@
+/* Exercício 05 – ClubeDeCampo
+ * Aluno: Herick de Lima Carneiro – Matricula: 20220005754
+ * Aluno: Weslley Rhaonny de Lima Freitas – Matricula: 20220155170
+ */
 import java.util.Scanner;
-
 public class ClubeDeCampo {
     public static void main(String[] args) {
         int numUsuarios, i, qt10=0, qt15=0, qt21=0, qtMaisVelhos=0;
